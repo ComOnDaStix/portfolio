@@ -23,6 +23,7 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
+          <Link href="https://human-made-responsive-p7ik-khty744d6-comondastix.vercel.app/" className={styles.link}>
           <Image
             src={"/project1.png"}
             width={640}
@@ -30,6 +31,7 @@ const Projects = () => {
             className={styles.img}
             alt="project1"
           />
+          </Link>
           <div className={styles.linkContainer}>
             <div className={styles.logoContainer}>
               <div className={styles.codeSection}>
@@ -43,7 +45,9 @@ const Projects = () => {
                   />
                 </Link>
               </div>
+              <Link href="https://github.com/ComOnDaStix/human-made" className={styles.link}>
               <h4 className={styles.h4}>CODE</h4>
+              </Link>
             </div>
             <div className={styles.demoSection}>
               <div className={styles.logoContainer}>
@@ -57,7 +61,9 @@ const Projects = () => {
                   />
                 </Link>
               </div>
+              <Link className={styles.link} href="https://human-made-responsive-p7ik-khty744d6-comondastix.vercel.app/">
               <h4 className={styles.h4}>LIVE DEMO</h4>
+              </Link>
             </div>
           </div>
         </div>
@@ -77,6 +83,7 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
+          <Link className={styles.link} href="https://chili-movie-mock-mq5a.vercel.app/">
           <Image
             src={"/project2.png"}
             width={640}
@@ -84,6 +91,7 @@ const Projects = () => {
             className={styles.img}
             alt="project2"
           />
+          </Link>
           <div className={styles.linkContainer}>
             <div className={styles.logoContainer}>
               <div className={styles.codeSection}>
@@ -97,7 +105,9 @@ const Projects = () => {
                   />
                 </Link>
               </div>
+              <Link className={styles.link} href="https://github.com/ComOnDaStix/Chili-Movie-Mock">
               <h4 className={styles.h4}>CODE</h4>
+              </Link>
             </div>
             <div className={styles.demoSection}>
               <div className={styles.logoContainer}>
@@ -111,7 +121,9 @@ const Projects = () => {
                   />
                 </Link>
               </div>
+              <Link className={styles.link} href="https://chili-movie-mock-mq5a.vercel.app/">
               <h4 className={styles.h4}>LIVE DEMO</h4>
+              </Link>
             </div>
           </div>
         </div>
@@ -133,6 +145,7 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
+          <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/" >
           <Image
             src={"/project3.png"}
             width={640}
@@ -140,6 +153,7 @@ const Projects = () => {
             className={styles.img}
             alt="project3"
           />
+          </Link>
           <div className={styles.linkContainer}>
             <div className={styles.logoContainer}>
               <div className={styles.codeSection}>
@@ -153,7 +167,9 @@ const Projects = () => {
                   />
                 </Link>
               </div>
+              <Link href="https://github.com/ComOnDaStix/Lefeur-Responsive" className={styles.link}>
               <h4 className={styles.h4}>CODE</h4>
+              </Link>
             </div>
             <div className={styles.demoSection}>
               <div className={styles.logoContainer}>
@@ -167,7 +183,9 @@ const Projects = () => {
                   />
                 </Link>
               </div>
+              <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/" className={styles.link}>
               <h4 className={styles.h4}>LIVE DEMO</h4>
+              </Link>
             </div>
           </div>
         </div>
@@ -187,6 +205,7 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
+          <Link href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/" className={styles.link}>
           <Image
             src={"/project4.png"}
             width={640}
@@ -194,6 +213,7 @@ const Projects = () => {
             className={styles.img}
             alt="project4"
           />
+          </Link>
           <div className={styles.linkContainer}>
             <div className={styles.logoContainer}>
               <div className={styles.codeSection}>
@@ -207,7 +227,9 @@ const Projects = () => {
                   />
                 </Link>
               </div>
+              <Link href="https://github.com/ComOnDaStix/Nike-Mock"  className={styles.link}>
               <h4 className={styles.h4}>CODE</h4>
+              </Link>
             </div>
             <div className={styles.demoSection}>
               <div className={styles.logoContainer}>
@@ -221,7 +243,9 @@ const Projects = () => {
                   />
                 </Link>
               </div>
+              <Link className={styles.link} href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/">
               <h4 className={styles.h4}>LIVE DEMO</h4>
+              </Link>
             </div>
           </div>
         </div>

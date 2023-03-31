@@ -76,6 +76,12 @@
 .h4 {
   margin-left: 10px;
   align-items: center;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
 
 .demo {
