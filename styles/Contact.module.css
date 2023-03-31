@@ -1,0 +1,620 @@
+.wrapper {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.h1 {
+  font-size: 40px;
+  margin-left: 19%;
+  letter-spacing: 1px;
+}
+
+.h3 {
+  letter-spacing: 1px;
+}
+
+.p {
+  margin-left: 19%;
+  letter-spacing: 1px;
+  margin-top: 0.9%;
+}
+
+.container {
+  margin-left: 13%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  width: 80%;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 5%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 7.5%;
+}
+
+.number {
+  margin-top: 2%;
+  letter-spacing: 1px;
+}
+
+.email {
+  margin-top: 25%;
+  letter-spacing: 1px;
+}
+
+.emailAddy {
+  margin-top: 2%;
+  letter-spacing: 1px;
+}
+
+.formContainer {
+  width: 50%;
+}
+
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 5%;
+  margin-bottom: 5%;
+}
+
+.input {
+  width: 50%;
+  padding: 15px;
+  border: 1px solid black;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.textareaContainer {
+  display: flex;
+}
+
+.textarea {
+  width: 75%;
+  height: 100px;
+  padding: 5px;
+  margin-right: 30px;
+  border: 1px solid black;
+}
+
+.submitContainer {
+  display: flex;
+}
+
+.Submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.container2 {
+  justify-content: center;
+}
+
+.h12 {
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.thumbsUp {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.submitCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  background-color: lightblue;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.submitCircle:hover {
+  background-color: white;
+  transition: ease-in-out 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .h3 {
+    margin-bottom: 1%;
+    margin-top: 10%;
+  }
+
+  .email {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+
+  .emailAddy {
+    margin: 0;
+  }
+
+  .number {
+    margin: 0;
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .inputRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .input {
+    margin-top: 4%;
+  }
+
+  .textareaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .textarea {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5%;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .submitCircle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p {
+    margin: 0;
+  }
+
+  .h1 {
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .thumbsUp {
+    display: none;
+  }
+
+  .h12 {
+    font-size: 25px;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 740px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .h3 {
+    margin-bottom: 1%;
+    margin-top: 10%;
+  }
+
+  .email {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+
+  .emailAddy {
+    margin: 0;
+  }
+
+  .number {
+    margin: 0;
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .inputRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .input {
+    margin-top: 4%;
+  }
+
+  .textareaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .textarea {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5%;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .submitCircle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p {
+    margin: 0;
+  }
+
+  .h1 {
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .thumbsUp {
+    display: none;
+  }
+
+  .h12 {
+    font-size: 25px;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .h3 {
+    margin-bottom: 1%;
+    margin-top: 10%;
+  }
+
+  .email {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+
+  .emailAddy {
+    margin: 0;
+  }
+
+  .number {
+    margin: 0;
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .inputRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .input {
+    margin-top: 4%;
+  }
+
+  .textareaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .textarea {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5%;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .submitCircle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p {
+    margin: 0;
+  }
+
+  .h1 {
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .thumbsUp {
+    display: none;
+  }
+
+  .h12 {
+    font-size: 25px;
+    align-items: center;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .h3 {
+    margin-bottom: 1%;
+    margin-top: 10%;
+  }
+
+  .email {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+
+  .emailAddy {
+    margin: 0;
+  }
+
+  .number {
+    margin: 0;
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .inputRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .input {
+    margin-top: 4%;
+  }
+
+  .textareaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .textarea {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5%;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .submitCircle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p {
+    margin: 0;
+  }
+
+  .h1 {
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .thumbsUp {
+    display: none;
+  }
+
+  .h12 {
+    font-size: 25px;
+    align-items: center;
+    margin: 0;
+  }
+}
