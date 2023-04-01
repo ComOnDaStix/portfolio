@@ -23,7 +23,7 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
-          <Link href="https://human-made-responsive-p7ik-khty744d6-comondastix.vercel.app/" className={styles.link}>
+          <Link href="https://human-made-responsive-p7ik-comondastix.vercel.app/" className={styles.link}>
           <Image
             src={"/project1.png"}
             width={640}
