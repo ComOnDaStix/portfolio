@@ -24,13 +24,17 @@ const Projects = () => {
         </div>
         <div className={styles.right}>
           <Link href="https://human-made-responsive-p7ik-comondastix.vercel.app/" className={styles.link}>
-          <Image
-            src={"/project1.png"}
-            width={640}
-            height={313}
-            className={styles.img}
-            alt="project1"
-          />
+          <video
+              src="/humanmadeVid.mp4"
+              width={640}
+              height={313}
+              className={styles.img}
+              alt="project1"
+              loop
+              autoPlay
+              muted
+              playsInline
+            />
           </Link>
           <div className={styles.linkContainer}>
             <div className={styles.logoContainer}>
@@ -84,13 +88,17 @@ const Projects = () => {
         </div>
         <div className={styles.right}>
           <Link className={styles.link} href="https://chili-movie-mock-mq5a.vercel.app/">
-          <Image
-            src={"/project2.png"}
-            width={640}
-            height={313}
-            className={styles.img}
-            alt="project2"
-          />
+          <video
+              src="/chilimovieVid.mp4"
+              width={640}
+              height={313}
+              className={styles.img}
+              alt="project1"
+              loop
+              autoPlay
+              muted
+              playsInline
+            />
           </Link>
           <div className={styles.linkContainer}>
             <div className={styles.logoContainer}>
@@ -146,13 +154,17 @@ const Projects = () => {
         </div>
         <div className={styles.right}>
           <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/" >
-          <Image
-            src={"/project3.png"}
-            width={640}
-            height={313}
-            className={styles.img}
-            alt="project3"
-          />
+          <video
+              src="/leflurVid.mp4"
+              width={640}
+              height={313}
+              className={styles.img}
+              alt="project1"
+              loop
+              autoPlay
+              muted
+              playsInline
+            />
           </Link>
           <div className={styles.linkContainer}>
             <div className={styles.logoContainer}>
@@ -206,13 +218,17 @@ const Projects = () => {
         </div>
         <div className={styles.right}>
           <Link href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/" className={styles.link}>
-          <Image
-            src={"/project4.png"}
-            width={640}
-            height={313}
-            className={styles.img}
-            alt="project4"
-          />
+          <video
+              src="/nikeVid.mp4"
+              width={640}
+              height={313}
+              className={styles.img}
+              alt="project1"
+              loop
+              autoPlay
+              muted
+              playsInline
+            />
           </Link>
           <div className={styles.linkContainer}>
             <div className={styles.logoContainer}>

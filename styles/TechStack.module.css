@@ -60,6 +60,7 @@
 
 @media (max-width: 768px) {
   .container {
+    width: 100%;
     margin-top: 10%;
     flex-direction: column;
   }
@@ -91,6 +92,7 @@
     margin-top: 15%;
   }
   .container {
+    width: 100%;
     flex-direction: column;
   }
 
