@@ -9,6 +9,84 @@ const Projects = () => {
       <h1 className={styles.h1}>Projects</h1>
       <div className={styles.container}>
         <div className={styles.textContainer}>
+          <h2 className={styles.left}>Variety Coffee</h2>
+          <p className={styles.desc}>
+            A website created with Next.js and utilizing the Shopify API for
+            data is a dynamic and scalable e-commerce platform that provides a
+            seamless shopping experience for customers. The Next.js framework
+            provides a robust and flexible frontend solution, while the Shopify
+            API provides access to a rich set of data and features, including
+            products, orders, customers, and payment processing.  This website is
+            a powerful solution for online retailers looking to build a custom
+            e-commerce platform, and provides a rich and user-friendly shopping
+            experience for customers.
+          </p>
+          <div className={styles.tech}>
+            <h4 className={styles.next}>Next JS</h4>
+            <h4 className={styles.css}>CSS</h4>
+          </div>
+        </div>
+        <div className={styles.right}>
+          <Link
+            href="https://variety-coffee-qgek6pcv8-comondastix.vercel.app/"
+            className={styles.link}
+          >
+            <video
+              src="/coffee.mp4"
+              width={660}
+              height={313}
+              className={styles.img}
+              alt="coffee"
+              loop
+              autoPlay
+              muted
+              playsInline
+            />
+          </Link>
+          <div className={styles.linkContainer}>
+            <div className={styles.logoContainer}>
+              <div className={styles.codeSection}>
+                <Link href="https://github.com/ComOnDaStix/Variety-Coffee">
+                  <Image
+                    src={"/gitHub.png"}
+                    width={25}
+                    height={25}
+                    className={styles.gitHub}
+                    alt="github"
+                  />
+                </Link>
+              </div>
+              <Link
+                href="https://github.com/ComOnDaStix/human-made"
+                className={styles.link}
+              >
+                <h4 className={styles.h4}>CODE</h4>
+              </Link>
+            </div>
+            <div className={styles.demoSection}>
+              <div className={styles.logoContainer}>
+                <Link href="https://variety-coffee-qgek6pcv8-comondastix.vercel.app/">
+                  <Image
+                    src={"/demo.png"}
+                    width={25}
+                    height={25}
+                    className={styles.demo}
+                    alt="demo"
+                  />
+                </Link>
+              </div>
+              <Link
+                className={styles.link}
+                href="https://variety-coffee-qgek6pcv8-comondastix.vercel.app/"
+              >
+                <h4 className={styles.h4}>LIVE DEMO</h4>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.container}>
+        <div className={styles.textContainer}>
           <h2 className={styles.left}>Human-Made</h2>
           <p className={styles.desc}>
             Undertaking the challenge of redesigning this website, I aimed to
@@ -23,8 +101,11 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
-          <Link href="https://human-made-responsive-p7ik-comondastix.vercel.app/" className={styles.link}>
-          <video
+          <Link
+            href="https://human-made-responsive-p7ik-comondastix.vercel.app/"
+            className={styles.link}
+          >
+            <video
               src="/humanmadeVid.mp4"
               width={640}
               height={313}
@@ -49,8 +130,11 @@ const Projects = () => {
                   />
                 </Link>
               </div>
-              <Link href="https://github.com/ComOnDaStix/human-made" className={styles.link}>
-              <h4 className={styles.h4}>CODE</h4>
+              <Link
+                href="https://github.com/ComOnDaStix/human-made"
+                className={styles.link}
+              >
+                <h4 className={styles.h4}>CODE</h4>
               </Link>
             </div>
             <div className={styles.demoSection}>
@@ -65,8 +149,11 @@ const Projects = () => {
                   />
                 </Link>
               </div>
-              <Link className={styles.link} href="https://human-made-responsive-p7ik-khty744d6-comondastix.vercel.app/">
-              <h4 className={styles.h4}>LIVE DEMO</h4>
+              <Link
+                className={styles.link}
+                href="https://human-made-responsive-p7ik-khty744d6-comondastix.vercel.app/"
+              >
+                <h4 className={styles.h4}>LIVE DEMO</h4>
               </Link>
             </div>
           </div>
@@ -87,8 +174,11 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
-          <Link className={styles.link} href="https://chili-movie-mock-mq5a.vercel.app/">
-          <video
+          <Link
+            className={styles.link}
+            href="https://chili-movie-mock-mq5a.vercel.app/"
+          >
+            <video
               src="/chilimovieVid.mp4"
               width={640}
               height={313}
@@ -113,8 +203,11 @@ const Projects = () => {
                   />
                 </Link>
               </div>
-              <Link className={styles.link} href="https://github.com/ComOnDaStix/Chili-Movie-Mock">
-              <h4 className={styles.h4}>CODE</h4>
+              <Link
+                className={styles.link}
+                href="https://github.com/ComOnDaStix/Chili-Movie-Mock"
+              >
+                <h4 className={styles.h4}>CODE</h4>
               </Link>
             </div>
             <div className={styles.demoSection}>
@@ -129,8 +222,11 @@ const Projects = () => {
                   />
                 </Link>
               </div>
-              <Link className={styles.link} href="https://chili-movie-mock-mq5a.vercel.app/">
-              <h4 className={styles.h4}>LIVE DEMO</h4>
+              <Link
+                className={styles.link}
+                href="https://chili-movie-mock-mq5a.vercel.app/"
+              >
+                <h4 className={styles.h4}>LIVE DEMO</h4>
               </Link>
             </div>
           </div>
@@ -153,8 +249,8 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
-          <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/" >
-          <video
+          <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/">
+            <video
               src="/leflurVid.mp4"
               width={640}
               height={313}
@@ -179,8 +275,11 @@ const Projects = () => {
                   />
                 </Link>
               </div>
-              <Link href="https://github.com/ComOnDaStix/Lefeur-Responsive" className={styles.link}>
-              <h4 className={styles.h4}>CODE</h4>
+              <Link
+                href="https://github.com/ComOnDaStix/Lefeur-Responsive"
+                className={styles.link}
+              >
+                <h4 className={styles.h4}>CODE</h4>
               </Link>
             </div>
             <div className={styles.demoSection}>
@@ -195,8 +294,11 @@ const Projects = () => {
                   />
                 </Link>
               </div>
-              <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/" className={styles.link}>
-              <h4 className={styles.h4}>LIVE DEMO</h4>
+              <Link
+                href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/"
+                className={styles.link}
+              >
+                <h4 className={styles.h4}>LIVE DEMO</h4>
               </Link>
             </div>
           </div>
@@ -217,8 +319,11 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.right}>
-          <Link href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/" className={styles.link}>
-          <video
+          <Link
+            href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/"
+            className={styles.link}
+          >
+            <video
               src="/nikeVid.mp4"
               width={640}
               height={313}
@@ -243,8 +348,11 @@ const Projects = () => {
                   />
                 </Link>
               </div>
-              <Link href="https://github.com/ComOnDaStix/Nike-Mock"  className={styles.link}>
-              <h4 className={styles.h4}>CODE</h4>
+              <Link
+                href="https://github.com/ComOnDaStix/Nike-Mock"
+                className={styles.link}
+              >
+                <h4 className={styles.h4}>CODE</h4>
               </Link>
             </div>
             <div className={styles.demoSection}>
@@ -259,8 +367,11 @@ const Projects = () => {
                   />
                 </Link>
               </div>
-              <Link className={styles.link} href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/">
-              <h4 className={styles.h4}>LIVE DEMO</h4>
+              <Link
+                className={styles.link}
+                href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/"
+              >
+                <h4 className={styles.h4}>LIVE DEMO</h4>
               </Link>
             </div>
           </div>
