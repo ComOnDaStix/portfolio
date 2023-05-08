@@ -41,6 +41,8 @@ const Projects = () => {
               autoPlay
               muted
               playsInline
+              preload="auto"
+              
             />
           </Link>
           <div className={styles.linkContainer}>
@@ -115,6 +117,7 @@ const Projects = () => {
               autoPlay
               muted
               playsInline
+              preload="auto"
             />
           </Link>
           <div className={styles.linkContainer}>
@@ -188,6 +191,7 @@ const Projects = () => {
               autoPlay
               muted
               playsInline
+              preload="auto"
             />
           </Link>
           <div className={styles.linkContainer}>
@@ -260,6 +264,7 @@ const Projects = () => {
               autoPlay
               muted
               playsInline
+              preload="auto"
             />
           </Link>
           <div className={styles.linkContainer}>
@@ -333,6 +338,7 @@ const Projects = () => {
               autoPlay
               muted
               playsInline
+              preload="auto"
             />
           </Link>
           <div className={styles.linkContainer}>
