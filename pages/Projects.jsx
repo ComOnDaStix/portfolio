@@ -31,17 +31,13 @@ const Projects = () => {
             href="https://variety-coffee-qgek6pcv8-comondastix.vercel.app/"
             className={styles.link}
           >
-            <video
-              src="/coffee.mp4"
+            <Image
+              src="/vcoffee.png"
               width={660}
               height={313}
               className={styles.img}
               alt="coffee"
-              loop
-              autoPlay
-              muted
-              playsInline
-              preload="auto"
+             
               
             />
           </Link>
@@ -107,17 +103,13 @@ const Projects = () => {
             href="https://human-made-responsive-p7ik-comondastix.vercel.app/"
             className={styles.link}
           >
-            <video
-              src="/humanmadeVid.mp4"
+            <Image
+              src="/humanmadeimg.png"
               width={640}
               height={313}
               className={styles.img}
               alt="project1"
-              loop
-              autoPlay
-              muted
-              playsInline
-              preload="auto"
+             
             />
           </Link>
           <div className={styles.linkContainer}>
@@ -181,17 +173,13 @@ const Projects = () => {
             className={styles.link}
             href="https://chili-movie-mock-mq5a.vercel.app/"
           >
-            <video
-              src="/chilimovieVid.mp4"
+            <Image
+              src="/chilimovieimg.png"
               width={640}
               height={313}
               className={styles.img}
               alt="project1"
-              loop
-              autoPlay
-              muted
-              playsInline
-              preload="auto"
+              
             />
           </Link>
           <div className={styles.linkContainer}>
@@ -254,17 +242,13 @@ const Projects = () => {
         </div>
         <div className={styles.right}>
           <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/">
-            <video
-              src="/leflurVid.mp4"
+            <Image
+              src="/lefleurimg.png"
               width={640}
               height={313}
               className={styles.img}
               alt="project1"
-              loop
-              autoPlay
-              muted
-              playsInline
-              preload="auto"
+             
             />
           </Link>
           <div className={styles.linkContainer}>
@@ -328,17 +312,12 @@ const Projects = () => {
             href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/"
             className={styles.link}
           >
-            <video
-              src="/nikevid.mp4"
+            <Image
+              src="/nikeimg.png"
               width={640}
               height={313}
               className={styles.img}
               alt="project1"
-              loop
-              autoPlay
-              muted
-              playsInline
-              preload="auto"
             />
           </Link>
           <div className={styles.linkContainer}>
