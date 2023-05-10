@@ -31,7 +31,7 @@ const Projects = () => {
             href="https://variety-coffee-qgek6pcv8-comondastix.vercel.app/"
             className={styles.link}
           >
-            <video
+            <Image
               src="/coffee.mp4"
               width={660}
               height={313}
@@ -107,7 +107,7 @@ const Projects = () => {
             href="https://human-made-responsive-p7ik-comondastix.vercel.app/"
             className={styles.link}
           >
-            <video
+            <Image
               src="/humanmadeVid.mp4"
               width={640}
               height={313}
@@ -181,7 +181,7 @@ const Projects = () => {
             className={styles.link}
             href="https://chili-movie-mock-mq5a.vercel.app/"
           >
-            <video
+            <Image
               src="/chilimovieVid.mp4"
               width={640}
               height={313}
@@ -254,7 +254,7 @@ const Projects = () => {
         </div>
         <div className={styles.right}>
           <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/">
-            <video
+            <Image
               src="/leflurVid.mp4"
               width={640}
               height={313}
@@ -328,7 +328,7 @@ const Projects = () => {
             href="https://nike-mock-j7f1u3p0e-comondastix.vercel.app/"
             className={styles.link}
           >
-            <video
+            <Image
               src="/nikevid.mp4"
               width={640}
               height={313}
