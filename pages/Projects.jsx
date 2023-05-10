@@ -108,7 +108,7 @@ const Projects = () => {
             className={styles.link}
           >
             <video
-              src="humanmadeVid.mp4"
+              src="/humanmadeVid.mp4"
               width={640}
               height={313}
               className={styles.img}
@@ -255,7 +255,7 @@ const Projects = () => {
         <div className={styles.right}>
           <Link href="https://lefeur-responsive-ofy3o3tfe-comondastix.vercel.app/">
             <video
-              src="leflurVid.mp4"
+              src="/leflurVid.mp4"
               width={640}
               height={313}
               className={styles.img}
@@ -329,7 +329,7 @@ const Projects = () => {
             className={styles.link}
           >
             <video
-              src="nikevid.mp4"
+              src="/nikevid.mp4"
               width={640}
               height={313}
               className={styles.img}
